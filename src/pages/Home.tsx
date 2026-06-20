@@ -168,7 +168,7 @@ export default function Home() {
                 ))}
                 <div className="flex items-center gap-4 mt-8">
                   <div className="w-16 h-16 rounded-full bg-slate-200 overflow-hidden">
-                    <img src={settings?.fotoKepalaSekolah || "https://drive.google.com/file/d/1z5JSYBgHOl0-IJVseQkUpQBEKmGkhost/view?usp=drivesdk=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
+                    <img src={settings?.fotoKepalaSekolah || "https://drive.google.com/file/d/1z5JSYBgHOl0-IJVseQkUpQBEKmGkhost/view?usp=drivesdk"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'Kepala Sekolah'}</h4>
